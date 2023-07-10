@@ -1,0 +1,10 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Convex = "f65535da-76fb-5f13-bab9-19810c17039a"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+Pipe = "b98c9c47-44ae-5843-9183-064241ee97a0"
+ProtoStructs = "437b6fc4-8e8e-11e9-3fa1-ad391e66c018"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+SCIP = "82193955-e24f-5292-bf16-6f2c5261a85f"
