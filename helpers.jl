@@ -481,3 +481,10 @@ function compute_verts(num_verts)
     end
     pointI, pointJ, pointV
 end
+
+function write_convex_jl_model_to_file(p, path)
+    dest = MOI.FileFormats.Model(format = MOI.FileFormats.FORMAT_SDPA)
+    src = p.model
+    MOI.copy_to(MOI.Bridges.full_bridge_optimizer(dest, Float64), src)
+    MOI.write_to_file(dest, path)
+end
